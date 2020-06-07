@@ -6,6 +6,9 @@ You can read about the official API here: https://developer.valvesoftware.com/wi
 How to use: 
 1. Generate your own API key here: https://steamcommunity.com/dev/apikey 
 2. Enter the STEAMID64 and API key under lib/steamapi.php 
+3. Open demo.php to see an example. 
+
+![Image of Demo](https://i.imgur.com/hnCtXnf.png)
 
 The steamapi.php file collects the following from the API into an array: 
 
