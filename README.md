@@ -3,7 +3,11 @@ Example on usage of the Steam Official API with PHP.
 
 You can read about the official API here: https://developer.valvesoftware.com/wiki/Steam_Web_API#GetPlayerSummaries_.28v0001.29
 
-The PHP file collects the following from the API into an array: 
+How to use: 
+1. Generate your own API key here: https://steamcommunity.com/dev/apikey 
+2. Enter the STEAMID64 and API key under lib/steamapi.php 
+
+The steamapi.php file collects the following from the API into an array: 
 
     [steamid] => 76561198011775992
     [username] => Mattimat
