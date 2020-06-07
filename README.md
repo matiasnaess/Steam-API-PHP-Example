@@ -1,6 +1,8 @@
 # Steam User API with PHP
 Example on usage of the Steam Official API with PHP. 
 
+Live demo: http://matiasnaess.no/projects/steamapi/demo.php
+
 You can read about the official API here: https://developer.valvesoftware.com/wiki/Steam_Web_API#GetPlayerSummaries_.28v0001.29
 
 How to use: 
