@@ -3,31 +3,23 @@
 // Using MySQL? Don't forget to sanitise your inputs!
 
 
-$steamapikey = ""; // Insert your Steam API Key - You can generate your key here: https://steamcommunity.com/dev/apikey
+$steamapikey = "DBB16388E96478186E927D8D65EBB845"; // Insert your Steam API Key - You can generate your key here: https://steamcommunity.com/dev/apikey
 $steamid = "76561198011775992"; // Insert the Steam ID 64 you wish to look up here
 ?>
 
 <?php
- if (empty($steamid)) {
-   
-   echo "No Steam ID is set!"; 
+ if (empty($steamid) or empty($steamapikey)) {
+   echo "Missing Steam ID or API Key!"; 
    exit;
-
   } else 
 
 
-
-if (empty($steamapikey)) {
-   
-    echo "Missing STEAM API Key!"; 
-    exit;
-    } else 
-
+ // Steam API Calls
+  
 @ $decodeuserinfo = file_get_contents("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=". $steamapikey ."&steamids=". $steamid);
    $userinfo = json_decode($decodeuserinfo, true);
    
 $steamuser = $userinfo['response']['players'][0];
-
 
 @ $getsteamlevel = file_get_contents("https://api.steampowered.com/IPlayerService/GetBadges/v1/?key=EA4FA02807E84092057D48943A0EFE61&format=json&steamid=".$steamid);
 $decodelevel = json_decode($getsteamlevel, true);  
