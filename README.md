@@ -10,7 +10,7 @@ How to use:
 
 ![Image of Demo](https://i.imgur.com/hnCtXnf.png)
 
-The steamapi.php file collects the following from the API into an array: 
+The steamapi.php file collects the following from the API: 
 
     [steamid] => 76561198011775992
     [username] => Mattimat
