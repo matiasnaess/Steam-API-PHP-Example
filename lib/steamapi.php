@@ -1,9 +1,5 @@
 <?php
-// Steam API Example by Matias Næss - For a stable download please visit: https://github.com/matiasnaess/Steam-API-PHP-Example
-// Using MySQL? Don't forget to sanitise your inputs!
-
-
-$steamapikey = "DBB16388E96478186E927D8D65EBB845"; // Insert your Steam API Key - You can generate your key here: https://steamcommunity.com/dev/apikey
+$steamapikey = ""; // Insert your Steam API Key - You can generate your key here: https://steamcommunity.com/dev/apikey
 $steamid = "76561198011775992"; // Insert the Steam ID 64 you wish to look up here
 ?>
 
