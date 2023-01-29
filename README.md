@@ -10,15 +10,3 @@ How to use:
 
 ![Image of Demo](https://i.imgur.com/hnCtXnf.png)
 
-The steamapi.php file collects the following from the API: 
-
-    [steamid] => 76561198011775992
-    [username] => Mattimat
-    [avatar] => https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/0b/0bbe1b0a81ebd7c211af7c56f7f686bbdcd9839c_full.jpg
-    [profileurl] => https://steamcommunity.com/id/Mattimat/
-    [country] => NO
-    [onlinestatus] => Online
-    [visibilitystate] => Public Profile
-    [totalgames] => 1,402
-    [totalyears] => 11
-    [level] => 107
